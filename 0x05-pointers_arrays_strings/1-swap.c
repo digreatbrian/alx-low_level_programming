@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+/**
+ * swap_int - Function
+ *
+ * Description: swaps the values of two integers
+ *
+ * Return: Always 0 (Success)
+ */
+void swap_int(int *a, int *b)
+{
+	int x = *a;
+
+	*a = *b;
+	*b = x;
+}
